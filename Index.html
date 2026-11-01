@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Draw Web is an art reference hub for artists: anatomy, poses, environments and objects.">
+    <title>Home - Draw Web</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="page-frame">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">
+                <img class="brand-logo" src="ART/high-resolution-logo-grayscale.png" alt="Draw Web logo">
+                <span class="brand-text">Draw Web<small>The Art Reference Hub</small></span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        </div>
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="anatomy.html">Anatomy</a>
+            <a href="poses.html">Poses</a>
+            <a href="environments.html">Environments</a>
+            <a href="objects.html">Objects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <h1>Welcome to Draw Web</h1>
+            <p class="lead">A hand-picked collection of visual references for artists.</p>
+            <img class="hero-banner" src="ART/alexandrupetre-ornament-950562_1920.jpg" alt="Decorative art banner">
+            <div class="button-row" style="justify-content:center">
+                <a class="button" href="gallery.html">Browse the gallery</a>
+                <a class="button light" href="about.html">About Draw Web</a>
+            </div>
+        </section>
+
+        <section class="reveal">
+            <h2>Reference Categories</h2>
+            <div class="card-grid">
+            <a class="category-card" href="anatomy.html">
+                <img src="ART/pexels-cottonbro-3778718.jpg" alt="Anatomy preview" loading="lazy">
+                <div>
+                    <h3>Anatomy</h3>
+                    <p>Bodies, limbs, faces and fine details.</p>
+                </div>
+            </a>
+            <a class="category-card" href="poses.html">
+                <img src="ART/pexels-mahesh-mohan-1196552405-38848922.jpg" alt="Poses preview" loading="lazy">
+                <div>
+                    <h3>Poses</h3>
+                    <p>Action, fantasy and everyday poses.</p>
+                </div>
+            </a>
+            <a class="category-card" href="environments.html">
+                <img src="ART/pexels-jozsef-mihalyi-432255798-15575235.jpg" alt="Environments preview" loading="lazy">
+                <div>
+                    <h3>Environments</h3>
+                    <p>Cities, landscapes and fantasy worlds.</p>
+                </div>
+            </a>
+            <a class="category-card" href="objects.html">
+                <img src="ART/pexels-rdne-7978129.jpg" alt="Objects preview" loading="lazy">
+                <div>
+                    <h3>Objects</h3>
+                    <p>Props, vehicles and clothing.</p>
+                </div>
+            </a>
+            </div>
+        </section>
+
+        <section class="reveal">
+            <h2>Practice Tools</h2>
+            <div class="tool-grid">
+                <div class="card">
+                    <h3>Random reference</h3>
+                    <p>Not sure what to draw? Pull a reference from the collection and start sketching.</p>
+                    <button class="button" type="button" id="random-button">Surprise me</button>
+                    <div class="random-output" id="random-output" aria-live="polite"></div>
+                </div>
+                <div class="card">
+                    <h3>Sketch timer</h3>
+                    <p>Pick a time, press start and draw until the clock runs out.</p>
+                    <div class="timer-choices" role="group" aria-label="Timer length">
+                        <button class="chip" type="button" data-seconds="30" aria-pressed="false">30 sec</button>
+                        <button class="chip" type="button" data-seconds="60" aria-pressed="true">1 min</button>
+                        <button class="chip" type="button" data-seconds="120" aria-pressed="false">2 min</button>
+                        <button class="chip" type="button" data-seconds="300" aria-pressed="false">5 min</button>
+                    </div>
+                    <div class="timer-display" id="timer-display" role="timer">01:00</div>
+                    <div class="timer-controls">
+                        <button class="button" type="button" id="timer-start">Start</button>
+                        <button class="button light" type="button" id="timer-reset">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reveal">
+            <h2>How It Works</h2>
+            <ol class="steps">
+                <li><strong>Choose a category.</strong> Anatomy, poses, environments or objects.</li>
+                <li><strong>Search or filter.</strong> Type a word to find exactly what you need.</li>
+                <li><strong>Click to enlarge.</strong> View any picture full size, in black and white or in colour.</li>
+            </ol>
+        </section>
+
+        <section class="reveal">
+            <h2>Looks Like You Found Draw Web</h2>
+            <div class="two-column">
+                <p>Draw Web is the art website that gathers useful visual references in one place, so you can spend less time searching and more time drawing.</p>
+                <img src="ART/pexels-giovanna-kamimura-399616174-30663291.jpg" alt="Art reference" loading="lazy">
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <h3>Draw Web</h3>
+                <p>A hand-picked collection of visual references for artists, students and anyone who likes to draw.</p>
+            </div>
+            <div>
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="anatomy.html">Anatomy</a></li>
+                    <li><a href="poses.html">Poses</a></li>
+                    <li><a href="environments.html">Environments</a></li>
+                    <li><a href="objects.html">Objects</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Site</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; <span id="year">2026</span> Draw Web. Keep drawing.</p>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Draw Web with questions, suggestions or feedback.">
+    <title>Contact - Draw Web</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="page-frame">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">
+                <img class="brand-logo" src="ART/high-resolution-logo-grayscale.png" alt="Draw Web logo">
+                <span class="brand-text">Draw Web<small>The Art Reference Hub</small></span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        </div>
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="anatomy.html">Anatomy</a>
+            <a href="poses.html">Poses</a>
+            <a href="environments.html">Environments</a>
+            <a href="objects.html">Objects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="page-title">
+            <h1>Contact Draw Web</h1>
+            <p>Questions, suggestions or feedback? We would like to hear from you.</p>
+        </section>
+
+        <div class="contact-layout">
+            <section class="contact-details">
+                <img src="ART/alexandrupetre-umbrella-898076_1920.jpg" alt="Art reference" style="width:100%;border:5px solid #171717;box-shadow:6px 6px 0 #171717;margin-bottom:24px">
+                <h2>Contact information</h2>
+                <p><strong>Email:</strong><br><a href="mailto:DrawWeb@eg.com">DrawWeb@eg.com</a></p>
+                <p><strong>Phone:</strong><br><a href="tel:+270123456789">012 345 6789</a></p>
+                <p><strong>Address:</strong><br>123 Example Street, Your City</p>
+            </section>
+
+            <section>
+                <h2>Send us a message</h2>
+
+                <div class="form-success" id="form-success" tabindex="-1" role="status">
+                    <h3>Thank you, <span id="success-name"></span>!</h3>
+                    <p>Your message has been received. We will reply as soon as we can.</p>
+                    <button class="button light" type="button" id="send-another">Send another message</button>
+                </div>
+
+                <form id="contact-form" novalidate>
+                    <div class="form-field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required>
+                        <span class="error-message" aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                        <span class="error-message" aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Choose a subject&hellip;</option>
+                            <option>General question</option>
+                            <option>Suggest a reference</option>
+                            <option>Report a problem</option>
+                            <option>Feedback</option>
+                        </select>
+                        <span class="error-message" aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="7" required></textarea>
+                        <p class="char-count" id="char-count">0 / 1000</p>
+                        <span class="error-message" aria-live="polite"></span>
+                    </div>
+
+                    <!-- Spam trap: leave this hidden field empty -->
+                    <div class="hp-field" aria-hidden="true">
+                        <label for="website">Leave this field empty</label>
+                        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                    </div>
+
+                    <button class="button" type="submit">Send message</button>
+                </form>
+            </section>
+        </div>
+
+        <section class="reveal">
+            <h2>Find us</h2>
+            <div class="map-frame">
+                <iframe title="Map showing the Draw Web location"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=28.03%2C-26.215%2C28.065%2C-26.193&amp;layer=mapnik&amp;marker=-26.2041%2C28.0473"
+                        loading="lazy"></iframe>
+            </div>
+            <p class="map-note">The map needs an internet connection. The address and pin are examples; see README.txt to change them.
+                <a href="https://www.openstreetmap.org/?mlat=-26.2041&amp;mlon=28.0473#map=15/-26.2041/28.0473">Open a larger map</a>.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <h3>Draw Web</h3>
+                <p>A hand-picked collection of visual references for artists, students and anyone who likes to draw.</p>
+            </div>
+            <div>
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="anatomy.html">Anatomy</a></li>
+                    <li><a href="poses.html">Poses</a></li>
+                    <li><a href="environments.html">Environments</a></li>
+                    <li><a href="objects.html">Objects</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Site</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; <span id="year">2026</span> Draw Web. Keep drawing.</p>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

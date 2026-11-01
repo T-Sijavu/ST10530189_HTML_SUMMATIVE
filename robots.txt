@@ -1,0 +1,9 @@
+# robots.txt for Draw Web
+# Tells search engine crawlers what they may visit.
+# This file must sit in the same folder as index.html (the site root).
+
+User-agent: *
+Allow: /
+
+# Replace with your real website address once the site is online
+Sitemap: https://www.your-domain.com/sitemap.xml

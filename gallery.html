@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse every Draw Web art reference image.">
+    <title>Gallery - Draw Web</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="page-frame">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">
+                <img class="brand-logo" src="ART/high-resolution-logo-grayscale.png" alt="Draw Web logo">
+                <span class="brand-text">Draw Web<small>The Art Reference Hub</small></span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        </div>
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="gallery.html" aria-current="page">Gallery</a>
+            <a href="anatomy.html">Anatomy</a>
+            <a href="poses.html">Poses</a>
+            <a href="environments.html">Environments</a>
+            <a href="objects.html">Objects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="page-title">
+            <h1>The Gallery</h1>
+            <p>Every reference in one place. Search, filter by category, or click any picture to view it large.</p>
+        </section>
+
+        <img class="hero-banner" src="ART/pexels-messalaciulla-7171387.jpg" alt="Art reference banner">
+
+        <div class="toolbar">
+            <div class="search-box">
+                <label for="search">Search references</label>
+                <input type="search" id="search" placeholder="Try &ldquo;legs&rdquo;, &ldquo;forest&rdquo; or &ldquo;car&rdquo;" autocomplete="off">
+            </div>
+            <p class="result-count" id="result-count" aria-live="polite"></p>
+            <div class="filter-chips" role="group" aria-label="Filter by category">
+                <button class="chip" type="button" data-filter="all" aria-pressed="true">All</button>
+                <button class="chip" type="button" data-filter="anatomy" aria-pressed="false">Anatomy</button>
+                <button class="chip" type="button" data-filter="poses" aria-pressed="false">Poses</button>
+                <button class="chip" type="button" data-filter="environments" aria-pressed="false">Environments</button>
+                <button class="chip" type="button" data-filter="objects" aria-pressed="false">Objects</button>
+            </div>
+        </div>
+        <div class="no-results" id="no-results">
+            <h3>No references found</h3>
+            <p style="margin-inline:auto">Try a different word, or clear the search to see everything.</p>
+            <button class="button light" type="button" id="clear-filters">Clear search</button>
+        </div>
+
+        <section class="ref-section">
+            <h2>Anatomy</h2>
+            <div class="ref-grid">
+                <figure class="ref-card" data-category="anatomy" data-search="legs reference male anatomy anatomy">
+                    <a class="thumb" href="ART/pexels-daria-liudnaya-8187682.jpg" data-lightbox data-title="Legs reference">
+                        <img src="ART/pexels-daria-liudnaya-8187682.jpg" alt="Legs reference" loading="lazy">
+                    </a>
+                    <figcaption>Legs reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="anatomy" data-search="flex reference male anatomy anatomy">
+                    <a class="thumb" href="ART/pexels-kari-alfonso-2151442665-31692217.jpg" data-lightbox data-title="Flex reference">
+                        <img src="ART/pexels-kari-alfonso-2151442665-31692217.jpg" alt="Flex reference" loading="lazy">
+                    </a>
+                    <figcaption>Flex reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="anatomy" data-search="upper body reference male anatomy anatomy">
+                    <a class="thumb" href="ART/pexels-kiran-more-1081549420-29886678.jpg" data-lightbox data-title="Upper body reference">
+                        <img src="ART/pexels-kiran-more-1081549420-29886678.jpg" alt="Upper body reference" loading="lazy">
+                    </a>
+                    <figcaption>Upper body reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="anatomy" data-search="body reference female anatomy anatomy">
+                    <a class="thumb" href="ART/pexels-cottonbro-3778718.jpg" data-lightbox data-title="Body reference">
+                        <img src="ART/pexels-cottonbro-3778718.jpg" alt="Body reference" loading="lazy">
+                    </a>
+                    <figcaption>Body reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="anatomy" data-search="eye reference female anatomy anatomy">
+                    <a class="thumb" href="ART/krystofos-eye-1227705_1920.jpg" data-lightbox data-title="Eye reference">
+                        <img src="ART/krystofos-eye-1227705_1920.jpg" alt="Eye reference" loading="lazy">
+                    </a>
+                    <figcaption>Eye reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="anatomy" data-search="back reference female anatomy anatomy">
+                    <a class="thumb" href="ART/pexels-andrea-musto-135941147-31031558.jpg" data-lightbox data-title="Back reference">
+                        <img src="ART/pexels-andrea-musto-135941147-31031558.jpg" alt="Back reference" loading="lazy">
+                    </a>
+                    <figcaption>Back reference</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="ref-section">
+            <h2>Poses</h2>
+            <div class="ref-grid">
+                <figure class="ref-card" data-category="poses" data-search="stringed reference male model poses poses">
+                    <a class="thumb" href="ART/pexels-ericka-sanchez-1098642631-36187418.jpg" data-lightbox data-title="Stringed reference">
+                        <img src="ART/pexels-ericka-sanchez-1098642631-36187418.jpg" alt="Stringed reference" loading="lazy">
+                    </a>
+                    <figcaption>Stringed reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="poses" data-search="calisthenic reference male model poses poses">
+                    <a class="thumb" href="ART/pexels-lngdik23-16131310.jpg" data-lightbox data-title="Calisthenic reference">
+                        <img src="ART/pexels-lngdik23-16131310.jpg" alt="Calisthenic reference" loading="lazy">
+                    </a>
+                    <figcaption>Calisthenic reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="poses" data-search="unique reference male model poses poses">
+                    <a class="thumb" href="ART/saydung-man-5835659_1920.jpg" data-lightbox data-title="Unique reference">
+                        <img src="ART/saydung-man-5835659_1920.jpg" alt="Unique reference" loading="lazy">
+                    </a>
+                    <figcaption>Unique reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="poses" data-search="kneeling reference female model poses poses">
+                    <a class="thumb" href="ART/pexels-rdne-7187989.jpg" data-lightbox data-title="Kneeling reference">
+                        <img src="ART/pexels-rdne-7187989.jpg" alt="Kneeling reference" loading="lazy">
+                    </a>
+                    <figcaption>Kneeling reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="poses" data-search="dressed reference female model poses poses">
+                    <a class="thumb" href="ART/flutie8211-woman-10348886_1920.jpg" data-lightbox data-title="Dressed reference">
+                        <img src="ART/flutie8211-woman-10348886_1920.jpg" alt="Dressed reference" loading="lazy">
+                    </a>
+                    <figcaption>Dressed reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="poses" data-search="dual-dagger wielder reference fantasy poses poses">
+                    <a class="thumb" href="ART/pexels-vika-glitter-392079-11937143.jpg" data-lightbox data-title="Dual-dagger wielder reference">
+                        <img src="ART/pexels-vika-glitter-392079-11937143.jpg" alt="Dual-dagger wielder reference" loading="lazy">
+                    </a>
+                    <figcaption>Dual-dagger wielder reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="poses" data-search="winged warrior reference fantasy poses poses">
+                    <a class="thumb" href="ART/pexels-mahesh-mohan-1196552405-38848922.jpg" data-lightbox data-title="Winged warrior reference">
+                        <img src="ART/pexels-mahesh-mohan-1196552405-38848922.jpg" alt="Winged warrior reference" loading="lazy">
+                    </a>
+                    <figcaption>Winged warrior reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="poses" data-search="block and hook reference combat poses poses">
+                    <a class="thumb" href="ART/pexels-tima-miroshnichenko-5750951.jpg" data-lightbox data-title="Block and hook reference">
+                        <img src="ART/pexels-tima-miroshnichenko-5750951.jpg" alt="Block and hook reference" loading="lazy">
+                    </a>
+                    <figcaption>Block and hook reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="poses" data-search="pose reference example (mannequin) example poses">
+                    <a class="thumb" href="ART/hannahalkadi-mannequin-1090714_1920.jpg" data-lightbox data-title="Pose reference example (mannequin)">
+                        <img src="ART/hannahalkadi-mannequin-1090714_1920.jpg" alt="Pose reference example (mannequin)" loading="lazy">
+                    </a>
+                    <figcaption>Pose reference example (mannequin)</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="ref-section">
+            <h2>Environments</h2>
+            <div class="ref-grid">
+                <figure class="ref-card" data-category="environments" data-search="city reference modern environments environments">
+                    <a class="thumb" href="ART/pexels-acres-of-film-698445032-34948662.jpg" data-lightbox data-title="City reference">
+                        <img src="ART/pexels-acres-of-film-698445032-34948662.jpg" alt="City reference" loading="lazy">
+                    </a>
+                    <figcaption>City reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="environments" data-search="house reference modern environments environments">
+                    <a class="thumb" href="ART/pexels-aksinfo7-36672638.jpg" data-lightbox data-title="House reference">
+                        <img src="ART/pexels-aksinfo7-36672638.jpg" alt="House reference" loading="lazy">
+                    </a>
+                    <figcaption>House reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="environments" data-search="pov reference modern environments environments">
+                    <a class="thumb" href="ART/pexels-studioideahd-22626931.jpg" data-lightbox data-title="POV reference">
+                        <img src="ART/pexels-studioideahd-22626931.jpg" alt="POV reference" loading="lazy">
+                    </a>
+                    <figcaption>POV reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="environments" data-search="trees and sky reference landscapes environments">
+                    <a class="thumb" href="ART/pexels-molnartamasphotography-29202983.jpg" data-lightbox data-title="Trees and sky reference">
+                        <img src="ART/pexels-molnartamasphotography-29202983.jpg" alt="Trees and sky reference" loading="lazy">
+                    </a>
+                    <figcaption>Trees and sky reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="environments" data-search="poolside reference landscapes environments">
+                    <a class="thumb" href="ART/pexels-ogproductionz-15824723.jpg" data-lightbox data-title="Poolside reference">
+                        <img src="ART/pexels-ogproductionz-15824723.jpg" alt="Poolside reference" loading="lazy">
+                    </a>
+                    <figcaption>Poolside reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="environments" data-search="waterfall reference fantasy environments environments">
+                    <a class="thumb" href="ART/pexels-jozsef-mihalyi-432255798-15575235.jpg" data-lightbox data-title="Waterfall reference">
+                        <img src="ART/pexels-jozsef-mihalyi-432255798-15575235.jpg" alt="Waterfall reference" loading="lazy">
+                    </a>
+                    <figcaption>Waterfall reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="environments" data-search="blue forest reference fantasy environments environments">
+                    <a class="thumb" href="ART/pexels-artyusufpatel-11785594.jpg" data-lightbox data-title="Blue forest reference">
+                        <img src="ART/pexels-artyusufpatel-11785594.jpg" alt="Blue forest reference" loading="lazy">
+                    </a>
+                    <figcaption>Blue forest reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="environments" data-search="top view reference places environments">
+                    <a class="thumb" href="ART/pexels-mikhail-nilov-8431132.jpg" data-lightbox data-title="Top view reference">
+                        <img src="ART/pexels-mikhail-nilov-8431132.jpg" alt="Top view reference" loading="lazy">
+                    </a>
+                    <figcaption>Top view reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="environments" data-search="mountains reference places environments">
+                    <a class="thumb" href="ART/pexels-alessandro-kelvin-1248577-2376272.jpg" data-lightbox data-title="Mountains reference">
+                        <img src="ART/pexels-alessandro-kelvin-1248577-2376272.jpg" alt="Mountains reference" loading="lazy">
+                    </a>
+                    <figcaption>Mountains reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="environments" data-search="environment reference example example environments">
+                    <a class="thumb" href="ART/pexels-chiara-minutolo-2089717969-29311263.jpg" data-lightbox data-title="Environment reference example">
+                        <img src="ART/pexels-chiara-minutolo-2089717969-29311263.jpg" alt="Environment reference example" loading="lazy">
+                    </a>
+                    <figcaption>Environment reference example</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="ref-section">
+            <h2>Objects</h2>
+            <div class="ref-grid">
+                <figure class="ref-card" data-category="objects" data-search="phone reference everyday objects objects">
+                    <a class="thumb" href="ART/pexels-gantas-3999536.jpg" data-lightbox data-title="Phone reference">
+                        <img src="ART/pexels-gantas-3999536.jpg" alt="Phone reference" loading="lazy">
+                    </a>
+                    <figcaption>Phone reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="objects" data-search="chair reference everyday objects objects">
+                    <a class="thumb" href="ART/pexels-karola-g-7193706.jpg" data-lightbox data-title="Chair reference">
+                        <img src="ART/pexels-karola-g-7193706.jpg" alt="Chair reference" loading="lazy">
+                    </a>
+                    <figcaption>Chair reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="objects" data-search="table reference everyday objects objects">
+                    <a class="thumb" href="ART/pexels-vladyslav-dukhin-38395555.jpg" data-lightbox data-title="Table reference">
+                        <img src="ART/pexels-vladyslav-dukhin-38395555.jpg" alt="Table reference" loading="lazy">
+                    </a>
+                    <figcaption>Table reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="objects" data-search="motorcycle reference vehicles objects">
+                    <a class="thumb" href="ART/pexels-adventurestudio-5794270.jpg" data-lightbox data-title="Motorcycle reference">
+                        <img src="ART/pexels-adventurestudio-5794270.jpg" alt="Motorcycle reference" loading="lazy">
+                    </a>
+                    <figcaption>Motorcycle reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="objects" data-search="car reference vehicles objects">
+                    <a class="thumb" href="ART/pexels-atahan-aksu-486635156-16775823.jpg" data-lightbox data-title="Car reference">
+                        <img src="ART/pexels-atahan-aksu-486635156-16775823.jpg" alt="Car reference" loading="lazy">
+                    </a>
+                    <figcaption>Car reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="objects" data-search="fantasy book and wand reference fantasy objects objects">
+                    <a class="thumb" href="ART/pexels-rdne-7978129.jpg" data-lightbox data-title="Fantasy book and wand reference">
+                        <img src="ART/pexels-rdne-7978129.jpg" alt="Fantasy book and wand reference" loading="lazy">
+                    </a>
+                    <figcaption>Fantasy book and wand reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="objects" data-search="fantasy shield reference fantasy objects objects">
+                    <a class="thumb" href="ART/pexels-irrabagon-37259385.jpg" data-lightbox data-title="Fantasy shield reference">
+                        <img src="ART/pexels-irrabagon-37259385.jpg" alt="Fantasy shield reference" loading="lazy">
+                    </a>
+                    <figcaption>Fantasy shield reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="objects" data-search="shoes reference clothing and accessories objects">
+                    <a class="thumb" href="ART/pexels-adanvdo-42038771-8079829.jpg" data-lightbox data-title="Shoes reference">
+                        <img src="ART/pexels-adanvdo-42038771-8079829.jpg" alt="Shoes reference" loading="lazy">
+                    </a>
+                    <figcaption>Shoes reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="objects" data-search="backpack reference clothing and accessories objects">
+                    <a class="thumb" href="ART/pexels-introspectivedsgn-9104768.jpg" data-lightbox data-title="Backpack reference">
+                        <img src="ART/pexels-introspectivedsgn-9104768.jpg" alt="Backpack reference" loading="lazy">
+                    </a>
+                    <figcaption>Backpack reference</figcaption>
+                </figure>
+                <figure class="ref-card" data-category="objects" data-search="object reference example example objects">
+                    <a class="thumb" href="ART/pexels-mikhail-nilov-7828275.jpg" data-lightbox data-title="Object reference example">
+                        <img src="ART/pexels-mikhail-nilov-7828275.jpg" alt="Object reference example" loading="lazy">
+                    </a>
+                    <figcaption>Object reference example</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <h3>Draw Web</h3>
+                <p>A hand-picked collection of visual references for artists, students and anyone who likes to draw.</p>
+            </div>
+            <div>
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="anatomy.html">Anatomy</a></li>
+                    <li><a href="poses.html">Poses</a></li>
+                    <li><a href="environments.html">Environments</a></li>
+                    <li><a href="objects.html">Objects</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Site</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; <span id="year">2026</span> Draw Web. Keep drawing.</p>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
